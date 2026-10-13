@@ -1,0 +1,9 @@
+dist
+dev
+__pycache__
+oasisPrototype.egg-info
+cpython
+.mypy_cache
+build/
+*.tar
+*.whl

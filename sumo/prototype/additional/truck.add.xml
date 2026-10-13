@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="truck_1" type="truck" depart="0.00">
+        <route edges="E08to07 E07to06 E06to05 E05to21"/>
+        <stop parkingArea="pa_0" duration="3.00"/>
+        <stop lane="E06to05_0" startPos="0.00" endPos="403.97" duration="3.00"/>
+    </vehicle>
+</additional>

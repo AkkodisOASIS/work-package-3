@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <parkingArea id="pa_1" lane="E07to08_0" startPos="177.12" endPos="187.12"/>
+    <parkingArea id="pa_2" lane="E07to08_0" startPos="165.50" endPos="175.50"/>
+    <parkingArea id="pa_3" lane="E07to08_0" startPos="153.93" endPos="163.93"/>
+</additional>

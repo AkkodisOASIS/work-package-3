@@ -1,0 +1,39 @@
+FROM debian:13.5-slim AS oasis
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+COPY ./lib/dist/oasisprototype-1.0.0-py3-none-any.whl /oasis/wp3/
+COPY ./requirements.txt /oasis/wp3/
+COPY ./lib/docker/installationSumo.sh /oasis/wp3/
+COPY ./lib/docker/entrypoint.sh /usr/bin/
+COPY ./lib/docker /oasis/wp3/
+COPY ./sumo /oasis/wp3/sumo/
+
+RUN apt-get update -y && apt-get upgrade -y 
+      
+RUN apt-get install -y \
+    python3 python3.13-venv curl gpg nano \
+    xfce4 xfce4-terminal \
+    tigervnc-standalone-server tigervnc-common \
+    novnc dbus-x11 x11-xserver-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN bash /oasis/wp3/installationSumo.sh \
+    && cd /oasis/wp3/ && python3 -m venv .venv \
+    && ./.venv/bin/python3 -m pip install -r ./requirements.txt \
+    && ./.venv/bin/python3 -m pip install ./oasisprototype-1.0.0-py3-none-any.whl \
+    && rm ./installationSumo.sh \
+    && rm ./oasisprototype-1.0.0-py3-none-any.whl \
+    && rm ./requirements.txt
+
+ENV SUMO_HOME=/usr/share/sumo
+
+RUN mkdir -p ~/.config/tigervnc \
+    && printf '%s\n%s\nn\n' "oasiswp3" "oasiswp3" | vncpasswd ~/.config/tigervnc/passwd \
+    && chmod 600 ~/.config/tigervnc/passwd
+
+WORKDIR /oasis/wp3/
+
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+
+CMD ["bash", "/usr/bin/entrypoint.sh"]

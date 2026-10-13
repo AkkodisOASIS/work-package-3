@@ -1,0 +1,13 @@
+name: "oasisPrototype"
+
+services:
+  oasis:
+    container_name: oasisPrototype
+    hostname: oasisPrototype
+    build:
+      context: ./
+      dockerfile: "./lib/dockerfile.oasis"
+    profiles:
+      - oasis
+    ports:
+      - "5901:5901"

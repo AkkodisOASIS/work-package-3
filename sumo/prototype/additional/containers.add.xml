@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <container id="c_1" depart="0.00" departPos="136.95" color="red">
+        <transport from="E03to02" to="E07to08"/>
+    </container>
+    <container id="c_10" depart="0.00" departPos="594.65" color="red">
+        <transport from="E06to05" to="E07to08"/>
+    </container>
+    <container id="c_11" depart="0.00" departPos="403.97" color="red">
+        <transport from="E06to05" to="E07to08"/>
+    </container>
+    <container id="c_12" depart="0.00" departPos="221.29" color="red">
+        <transport from="E06to05" to="E07to08"/>
+    </container>
+    <container id="c_13" depart="0.00" departPos="91.20" color="red">
+        <transport from="E06to05" to="E07to08"/>
+    </container>
+    <container id="c_14" depart="0.00" departPos="202.57" color="red">
+        <transport from="E09to07" to="E07to08"/>
+    </container>
+    <container id="c_15" depart="0.00" departPos="118.96" color="red">
+        <transport from="E09to07" to="E07to08"/>
+    </container>
+    <container id="c_16" depart="0.00" departPos="40.67" color="red">
+        <transport from="E09to07" to="E07to08"/>
+    </container>
+    <container id="c_17" depart="0.00" departPos="148.65" color="red">
+        <transport from="E09to16" to="E07to08"/>
+    </container>
+    <container id="c_18" depart="0.00" departPos="286.46" color="red">
+        <transport from="E10to09" to="E07to08"/>
+    </container>
+    <container id="c_19" depart="0.00" departPos="121.79" color="red">
+        <transport from="E10to09" to="E07to08"/>
+    </container>
+    <container id="c_2" depart="0.00" departPos="71.02" color="red">
+        <transport from="E03to04" to="E07to08"/>
+    </container>
+    <container id="c_20" depart="0.00" departPos="118.98" color="red">
+        <transport from="E16to15" to="E07to08"/>
+    </container>
+    <container id="c_21" depart="0.00" departPos="39.38" color="red">
+        <transport from="E10to15" to="E07to08"/>
+    </container>
+    <container id="c_22" depart="0.00" departPos="317.48" color="red">
+        <transport from="E11to10" to="E07to08"/>
+    </container>
+    <container id="c_23" depart="0.00" departPos="193.70" color="red">
+        <transport from="E11to10" to="E07to08"/>
+    </container>
+    <container id="c_24" depart="0.00" departPos="60.05" color="red">
+        <transport from="E11to10" to="E07to08"/>
+    </container>
+    <container id="c_25" depart="0.00" departPos="159.04" color="red">
+        <transport from="E11to12" to="E07to08"/>
+    </container>
+    <container id="c_26" depart="0.00" departPos="41.54" color="red">
+        <transport from="E14to11" to="E07to08"/>
+    </container>
+    <container id="c_27" depart="0.00" departPos="159.43" color="red">
+        <transport from="E14to13" to="E07to08"/>
+    </container>
+    <container id="c_28" depart="0.00" departPos="15.00" color="red">
+        <transport from="E20to14" to="E07to08"/>
+    </container>
+    <container id="c_29" depart="0.00" departPos="300.20" color="red">
+        <transport from="E15to14" to="E07to08"/>
+    </container>
+    <container id="c_3" depart="0.00" departPos="48.75" color="red">
+        <transport from="E20to03" to="E07to08"/>
+    </container>
+    <container id="c_30" depart="0.00" departPos="69.09" color="red">
+        <transport from="E15to14" to="E07to08"/>
+    </container>
+    <container id="c_31" depart="0.00" departPos="87.72" color="red">
+        <transport from="E20to19" to="E07to08"/>
+    </container>
+    <container id="c_32" depart="0.00" departPos="119.71" color="red">
+        <transport from="E17to18" to="E07to08"/>
+    </container>
+    <container id="c_33" depart="0.00" departPos="103.74" color="red">
+        <transport from="E06to17" to="E07to08"/>
+    </container>
+    <container id="c_4" depart="0.00" departPos="158.86" color="red">
+        <transport from="E04to03" to="E07to08"/>
+    </container>
+    <container id="c_5" depart="0.00" departPos="69.13" color="red">
+        <transport from="E19to04" to="E07to08"/>
+    </container>
+    <container id="c_6" depart="0.00" departPos="105.62" color="red">
+        <transport from="E18to19" to="E07to08"/>
+    </container>
+    <container id="c_7" depart="0.00" departPos="23.78" color="red">
+        <transport from="E21to18" to="E07to08"/>
+    </container>
+    <container id="c_8" depart="0.00" departPos="97.10" color="red">
+        <transport from="E05to04" to="E07to08"/>
+    </container>
+    <container id="c_9" depart="0.00" departPos="258.84" color="red">
+        <transport from="E17to21" to="E07to08"/>
+    </container>
+</additional>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- VTypes -->
+    <vType id="truck" length="8.00" maxSpeed="13.90" vClass="truck" guiShape="truck" color="green" containerCapacity="100" loadingDuration="3.00"/>
+</additional>

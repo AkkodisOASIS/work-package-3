@@ -1,0 +1,1 @@
+_listeParkings = () # Stockage des parkings de la simulation

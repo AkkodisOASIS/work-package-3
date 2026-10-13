@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=82", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oasisPrototype"
+version = "1.0.0"
+description = "OASIS - WP3 - Simulateur"
+requires-python = ">=3.13.5"
+dependencies = ["traci"]
+
+[tool.setuptools.packages.find]
+where = ["./src"]
